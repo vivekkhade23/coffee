@@ -1,0 +1,34 @@
+#img {
+    width: 100%;
+    height: 60%;
+
+}
+
+#div {
+    width: 300px;
+    text-align: center;
+    margin: 25px;
+    height: 350px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+#bucket {
+    display: grid;
+    margin-left: 10px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+#total_amount {
+    text-align: center;
+    font-size: 25px;
+}
+
+#confirm_checkout {
+    color: white;
+    background-color: black;
+    margin-left: 45%;
+    width: 200px;
+    font-size: 25px;
+    height: 50px;
+}
